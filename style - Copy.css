@@ -127,47 +127,529 @@ color: #53356F;
 width: 500px;
 height: 93px;
 left: 100px;
-top:150px;
+top:155px;
 font-style: normal;
 font-weight: 400;
-font-size: 28px;
+font-size: 22px;
 line-height: 34px;
 color: #000000;
 }
 .intro-method
 {
-   top:280px;
+   top:250px;
    position: absolute;
 width: 400px;
 height: 88px;
 left: 100px;
-
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 15px;
 line-height: 26px;
 color: #8D97A7;
 }
-.landig-start-btn
+.landig-start-btn,.table-start-btn
 {
    position: absolute;
-width: 300px;
-height: 75px;
-left: 161px;
-top: 549.19px;
+   width: 220px;
+   height: 65px;
    background-color: #41B9E6;
    border: none;
-   font-weight: bold;
    color: white;
-   padding: 5px 40px;
-   margin-top: 45px;
-   margin-bottom: 20px;
    border-radius: 6px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.landig-start-btn{
+   left: 100px;
+   top: 355px;
 }
 .FairStoneLogo{
    position: absolute;
 width: 251px;
 height: 84px;
-left: 161px;
-top: 647px;
+left: 100px;
+top: 435px;
 }
+
+/* phone section styling */
+.phoneSection{
+   position: absolute;
+top: 720px;
+height: 840px;
+width: 100%;
+background: #FDFDFD;
+}
+.landing-phone
+{
+   position: absolute;
+width: 630px;
+height: 670px;
+left: 80px;
+top:100px;
+}
+.phonesubsection
+{
+   position: absolute;
+   left: 710px;
+top:100px;
+}
+.phoneHeadText{
+   position: absolute;
+width: 400px;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: -0.03em;
+
+color: #53356F;
+}
+.phonesection-detail{
+   position: absolute;
+width: 550px;
+height: 203px;
+top: 100px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 184.1%;
+letter-spacing: -0.03em;
+color: #1B2D49;
+}
+.loan{
+   position: absolute;
+   width: 278px;
+   height: 275px;
+   top:260px;
+   background: #FDFDFD;
+   border: 3px solid #41B9E6;
+   border-radius: 8px;
+}
+.loanTypes .secured{
+left:302px;
+}
+.loanBoldText,.details{
+   position: absolute;
+   font-style: normal;
+   left: 35px;
+   font-weight: 700;
+   font-size: 20px;
+   letter-spacing: -0.03em;
+   color: #3F2355;
+   margin: 0;
+}
+.loanBoldText{
+   top: 5%;
+}
+.details{
+   top:60%;
+}
+.arrowflex{
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   left: 35px;
+   top: 12%;
+}
+.loan-desc,li{
+   position: absolute;
+width: 220px;
+
+
+left: 35px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.03em;
+color: #1B2D49;
+}
+.loan-desc{
+   top: 25%;
+   margin-block:20px;
+}
+.detail-list li{
+   top: 63%;
+   left: 60px;
+}
+.list1-item1{
+   padding-top: 20px;
+}
+.list1-item2{
+   padding-top: 35px;
+}
+.list1-item3{
+   padding-top: 50px;
+}
+.phone-start-btn{
+   left: 0px;
+   top:563px;
+}
+/* section 3 */
+.loanUses{
+   position: absolute;
+   top: 1570px;
+   margin-bottom: 4%;
+}
+.useSectionRow
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.useSectionHeading
+{
+   position: absolute;
+   width: 785px;
+   left: 367px;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 30px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+   color: #53356F;
+}
+.useSection
+{
+   margin-right:35px;
+   margin-bottom: 30px;
+   min-width: 300px;
+   height: 257px;
+   padding:  30px;
+   background: #FFFFFF;
+   border: 1px solid #EDEDED;
+   box-sizing: border-box;
+   box-shadow: 0px 0px 18px rgba(108, 126, 147, 0.15);
+   border-radius: 8px;
+}
+.useHeading
+{
+   max-width: 159px;
+   max-height: 50px;
+   padding-block: 5px;
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 17px;
+   line-height: 23px;
+   letter-spacing: -0.03em;
+   color: #3F2A56;
+}
+.useText
+{
+   width: 198px;
+   height: 43px;
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18px;
+   letter-spacing: -0.03em;
+   color: #5A687C;
+}
+.uses{
+   padding-left: 195px;
+   padding-bottom: 60px;
+   padding-top: 150px;
+}
+/* section 4  */
+.descSection{
+   position: absolute;
+   width: 900px;
+   height: 700px;
+   background: #F5F5F5;
+   top:2400px;
+}
+.descSectionPic{
+   position: absolute;
+   height: 723px;
+   width: 49.9%;
+   left: 900px;
+   top:0px;
+}
+.descSectionText
+{
+   background: #F5F5F5;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 65px;
+}
+.descDetailHeading
+{
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   max-width: 360px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+   color: #53356F;
+   margin: 5px;
+}
+.stepNum
+{
+   color: #3F2A56;
+   background-color: white;
+   border-radius: 50%;
+   padding: 11px;
+   height: 20px;
+   width: 20px;
+   margin-top: 30px;
+   margin-right: 10px;
+   font-weight: bolder;
+   text-align: center;
+}
+.stepHeading{
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 20px;
+   line-height: 31px;
+   letter-spacing: -0.03em;
+   max-width: 400px;
+   color: #3F2355;
+   margin-bottom: 0;
+}
+.stepIdentity
+{
+   display: flex;
+   flex-direction: row;
+}
+.stepDesc
+{
+   font-size: 16px;
+   line-height: 150.1%;
+   letter-spacing: -0.03em;
+   color: #1B2D49;
+   max-width: 283px;
+   margin: 0;
+}
+.desc-btn{
+   left: 118px;
+    top: 560px;
+}
+.methodStep{
+min-height: 120px;
+}
+/* loan plans section */
+.plans{
+   position: absolute;
+   top:3080px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+   padding-bottom: 100px;
+   width: 100%;
+}
+.plancontent
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.planHeading
+{
+   text-align: center;
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+   color: #53356F;
+   max-width: 570px;
+}
+.plans th{
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: -0.03em;
+   color: #FFFFFF;
+   padding: 7px 45px;
+}
+.dark-purple-Head{
+   background-color: #38244C;
+   text-align: left;
+}
+.light-purple-Head{
+   background: #8D7A9E;
+   text-align: left;
+}
+.light-gray-Head{
+   background: #EFEFEF;
+   color: #5B5B5B !important;
+   text-align: right;
+}
+.th-text{
+   max-width: 150px;
+   margin-block: 0;
+}
+.plans tbody td{
+   text-align: left;
+   padding: 15px 50px;
+}
+.td-text{
+   max-width: 200px;
+   margin: 0;
+}
+.plans tr:nth-child(2n) td
+{
+   background: #EFEFEF;
+}
+.plans tr td:nth-child(1){
+   text-align: right;
+}
+.th-right{
+   max-width: none;
+}
+.lastrow{
+   background-color: white !important;
+}
+.logo-fairstone{
+   padding: 0% !important;
+}
+.table-start-btn{
+   margin-left: 81px;
+}
+.copyright-text{
+left: 342px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.03em;
+color: #060606;
+opacity: 0.75;
+}
+
+/* footer */
+.footer{
+   position: absolute;
+   top: 4130px;
+   width: 100%;
+}
+.getFinancing{
+   position: absolute;
+   max-width: 47%;
+   background: #F8F8FA;
+   padding-top: 25px;
+   padding-left: 40px;
+   padding-bottom: 100px;
+   }
+   .summary{
+   position: absolute;
+   max-width: 50%;
+   left: 50%;
+   background: #FFFFFF;
+   }
+   .footerHead{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 130%;
+   color: #3F2355;
+   max-width: 450px;
+   }
+   .foot-intro{
+      font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 160%;
+   letter-spacing: 0.004em;
+   color: #828385;
+   max-width: 500px;
+   }
+   .client-orange{
+      color: #FB5100;
+   }
+   .contact{
+      display: flex;
+      flex-direction: row;
+   }
+   .contact div{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   }
+   .contact div p {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 21px;
+   padding-right: 20px;
+   padding-left: 10px;
+   color: #3F2355;
+   }
+   .contactimg,.connect-icons{
+      margin-left: -10%;
+   }
+   .img-bg{
+      background: #D4D0DD;
+      padding: 10px;
+      border-radius: 100%;
+   }
+   .phone-bg{
+      padding: 7px 12px;
+   }
+   .contatc-links{
+      max-width: 350px;
+   }
+   .connect-icons{
+      margin-block: -6%;
+   }
+   .summary{
+      padding: 30px 70px;
+   }
+   .foot-intro2{
+      font-style: normal;
+   font-weight: 400px;
+   font-size: 13px;
+   line-height: 160%;
+   color: #828385;
+   }
+   .foot-finishline
+   {
+      font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 150%;
+   letter-spacing: 0.004em;
+   color: #828385;
+   }
+   .foot-copyRight{
+      font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+   color: #3F2355;
+   }
+   .footer-table thead td{
+      font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 31px;
+   color: #3F2355;
+   opacity: 1 !important;
+   }
+   .footer-table td{
+      font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   padding-left: 20px;
+   line-height: 43px;
+   color: #131313;
+   opacity: 0.6;
+   }
