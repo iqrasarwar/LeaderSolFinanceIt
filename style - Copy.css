@@ -1,0 +1,173 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: Calibri;
+}
+/* NavBar Styling */
+.navigationBar{
+   position: absolute;
+   height: 75px;
+   width: 100%;
+   left: 0px;
+   top: 0px;
+   box-shadow: 0px 20px 60px rgba(38, 47, 86, 0.04);
+}
+.navBarLogo{
+   position: absolute;
+left: 1.46%;
+top: 13.33%;
+bottom: 10.67%;
+width:170px;
+height:57px;
+}
+.navBarMenu{
+   position: absolute;
+left: 15.67%;
+right: 60%;
+top: 37.33%;
+bottom: 34.67%;
+}
+.works-purple{
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #644E77;
+}
+.clients-orange{
+
+   font-style: normal;
+   font-weight: 900;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FB5100;
+   position: absolute;
+}
+.PostAD{
+   position: absolute;
+left: 63%;
+top: 33.33%;
+bottom: 30%;
+}
+.searchVehicle{
+   position: absolute;
+left: 71%;
+top: 33.33%;
+bottom: 30%;
+}
+.signIn{
+   position: absolute;
+left: 82%;
+top: 30.67%;
+bottom: 29.33%;
+padding-right:7px;
+}
+.hr{
+   position: absolute;
+left: 91%;
+top: 20.67%;
+bottom: 20%;
+border-left: 1px solid #D4D0DD;
+}
+.navBar-btn{
+   position: absolute;
+left: 92%;
+top: 24%;
+bottom: 22.67%;
+color: white;
+background: #FB5100;
+border: 1px solid #FB5100;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.navBarActionMenu div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.menuImg{
+   margin: 0px 8px;
+}
+
+/* landing intro section */
+.intro
+{
+   position: absolute;
+   height: 721px;
+   left: 0px;
+   top: 114px;
+}
+.landingIntroImg{
+
+width: 600px;
+height: 540px;
+top: 5px;
+position: absolute;
+left: 700px;
+background: #FFFFFF;
+}
+.landingtext
+{
+   position: absolute;
+   width: 550px;
+height: 176px;
+left: 100px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -0.03em;
+color: #53356F;
+}
+.intro-amount
+{
+   position: absolute;
+width: 500px;
+height: 93px;
+left: 100px;
+top:150px;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #000000;
+}
+.intro-method
+{
+   top:280px;
+   position: absolute;
+width: 400px;
+height: 88px;
+left: 100px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #8D97A7;
+}
+.landig-start-btn
+{
+   position: absolute;
+width: 300px;
+height: 75px;
+left: 161px;
+top: 549.19px;
+   background-color: #41B9E6;
+   border: none;
+   font-weight: bold;
+   color: white;
+   padding: 5px 40px;
+   margin-top: 45px;
+   margin-bottom: 20px;
+   border-radius: 6px;
+}
+.FairStoneLogo{
+   position: absolute;
+width: 251px;
+height: 84px;
+left: 161px;
+top: 647px;
+}

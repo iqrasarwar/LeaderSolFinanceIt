@@ -304,12 +304,14 @@ margin: 0;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   padding-top: 50px;
+   padding-bottom: 100px;
 }
 .plancontent
 {
    display: flex;
+   flex-direction: column;
    justify-content: center;
-   align-items: center;
 }
 .planHeading
 {
@@ -321,7 +323,7 @@ margin: 0;
    line-height: 46px;
    letter-spacing: -0.03em;
    color: #53356F;
-   max-width: 600px;
+   max-width: 640px;
 }
 .plans th{
    font-family: 'Basis Grotesque Pro';
@@ -331,7 +333,7 @@ margin: 0;
    line-height: 30px;
    letter-spacing: -0.03em;
    color: #FFFFFF;
-   padding: 20px;
+   padding: 7px 45px;
 }
 .dark-purple-Head{
    background-color: #38244C;
@@ -367,5 +369,139 @@ margin: 0;
 }
 .th-right{
    max-width: none;
-   margin-right: 30px;
+}
+.lastrow{
+   background-color: white !important;
+}
+.logo-fairstone{
+   padding: 0% !important;
+   float: left;
+}
+.table-start-btn{
+   margin-left: 120px;
+}
+.copyright-text{
+left: 342px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.03em;
+color: #060606;
+opacity: 0.75;
+}
+/* footer */
+.getFinancing{
+position: absolute;
+max-width: 47%;
+background: #F8F8FA;
+padding-top: 25px;
+padding-left: 40px;
+padding-bottom: 100px;
+}
+.summary{
+position: absolute;
+max-width: 50%;
+left: 50%;
+background: #FFFFFF;
+}
+.footerHead{
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 130%;
+color: #3F2355;
+max-width: 450px;
+}
+.foot-intro{
+   font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 160%;
+letter-spacing: 0.004em;
+color: #828385;
+max-width: 500px;
+}
+.client-orange{
+   color: #FB5100;
+}
+.contact{
+   display: flex;
+   flex-direction: row;
+}
+.contact div{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.contact div p {
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+padding-right: 20px;
+padding-left: 10px;
+color: #3F2355;
+}
+.contactimg,.connect-icons{
+   margin-left: -10%;
+}
+.img-bg{
+   background: #D4D0DD;
+   padding: 10px;
+   border-radius: 100%;
+}
+.phone-bg{
+   padding: 7px 12px;
+}
+.contatc-links{
+   max-width: 350px;
+}
+.connect-icons{
+   margin-block: -6%;
+}
+.summary{
+   padding: 30px 70px;
+}
+.foot-intro2{
+   font-style: normal;
+font-weight: 400px;
+font-size: 13px;
+line-height: 160%;
+color: #828385;
+}
+.foot-finishline
+{
+   font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.004em;
+color: #828385;
+}
+.foot-copyRight{
+   font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #3F2355;
+}
+.footer-table thead td{
+   font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 31px;
+color: #3F2355;
+}
+.footer-table td{
+   font-style: normal;
+font-weight: 400;
+font-size: 13px;
+padding-left: 20px;
+line-height: 53px;
+color: #131313;
+opacity: 0.6;
 }
