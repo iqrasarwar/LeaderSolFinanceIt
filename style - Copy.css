@@ -696,32 +696,54 @@ top: 24%;
 }
 .landingIntroImg
 {
-   left: 30vw;
-   height: 40vw;
-   right: 30vw;
-   top: 600px;
-   width: 40vw;
+   left: 20vw;
+   height: 60vw;
+   right: 20vw;
+   top: 390px;
+   width: 60vw;
 }
 .landingtext,.intro-amount,.intro-method{
-   left: 30vw;
-   right: 30vw;
-   width: 40vw;
+   left: 10vw;
+   right: 10vw;
+   width: 80vw;
 }
 .landig-start-btn,.FairStoneLogo{
-   left: 30vw;
+   left: 10vw;
+   top: 230px;
+}
+.FairStoneLogo{
+   top: 310px;
 }
 .intro-amount{
-   top: 130px;
-   line-height: 28px;
+   top: 85px;
+   line-height: 20px;
+   max-width: 60vw;
 }
 .intro-method{
-   top: 240px;
-   line-height: 22px;
+   top: 150px;
+   line-height: 20px;
+   max-width: 55vw;
 }
 .landingtext
 {
-   line-height: 45px;
+   line-height: 30px;
    font-size: 45px;
+   max-width: none;
+}
+.phoneSection
+{
+   top: 1000px;
+}
+.phonesubsection,.landing-phone{
+   left: 25vw;
+}
+.landing-phone
+{
+   top: 790px;
+}
+.phone-start-btn{
+   left: 0;
+   top: 560px;
 }
 }
 @media (max-width:768px)
@@ -769,25 +791,47 @@ top: 24%;
       left: 85%;
       top: 39%;
       }
-
+.landingtext
+{
+   line-height: 40px;
+}
+.landingIntroImg
+{
+   top: 500px;
+}
    .intro-amount{
-      top: 170px;
+      top: 120px;
    }
    .intro-method
    {
-      top: 320px;
+      top: 230px;
    }
    .landig-start-btn
    {
-      top: 420px;
+      top: 330px;
    }
    .FairStoneLogo
    {
-      top: 495px;
+      top: 400px;
    }
    .hr
    {
       display: none !important;
+   }
+   .phonesubsection{
+      top: 50px;
+   }
+   .landing-phone
+   {
+      top: 670px;
+   }
+   .phonesubsection,.landing-phone
+   {
+      left: 10vw;
+   }
+   .phone-start-btn{
+      left: 0;
+      top: 560px;
    }
 }
 @media (min-width:300px) and (max-width:480px)
@@ -837,21 +881,21 @@ top: 24%;
          top: 190px;
          font-size: 15px;
          line-height: 15px;
-         max-width: 150px;
+         max-width: 60vw;
       }
       .intro-amount
       {
          top: 250px;
          font-size: 10px;
          line-height: 12px;
-         max-width: 120px;
+         max-width: 70vw;
       }
       .intro-method
       {
          top: 310px;
          font-size: 9px;
          line-height: 12px;
-         max-width: 100px;
+         max-width: 75vw;
       }
       .FairStoneLogo,.landig-start-btn
       {
@@ -863,8 +907,25 @@ top: 24%;
       {
          height: 40px;
          width: 36vw;
+         top: 350px;
+      }
+      .phone-start-btn
+      {
+         top: 590px;
+         left: 5px;
       }
       .fairstone{
          width: 100%;
+      }
+      .phoneSection
+      {
+         top: 820px;
+      }
+      .phonesubsection{
+         top: 0px;
+      }
+      .landing-phone
+      {
+         top: 640px;
       }
 }
