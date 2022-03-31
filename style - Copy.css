@@ -730,6 +730,26 @@ top: 24%;
    font-size: 45px;
    max-width: none;
 }
+.useHeading{
+   font-size: 13px;
+   line-height: 20px;
+   max-width: 100px;
+}
+.useText{
+   font-size: 12px;
+   max-width: 130px;
+}
+.useSection{
+   max-width: 100px;
+   min-width: fit-content;
+   height: 272px;
+}
+.useSectionHeading{
+   left: 29vw !important;
+}
+.uses{
+   padding-left: 26vw !important;
+}
 .phoneSection
 {
    top: 1200px;
@@ -750,7 +770,7 @@ top: 24%;
    top: 2800px;
 }
 .uses{
-   padding-left: 130px;
+   padding-left: 20vw;
 }
 }
 @media (max-width:768px)
@@ -842,11 +862,11 @@ top: 24%;
       width: 287px;
    }
    .uses{
-      padding-left: 90px;
+      padding-left: 23vw;
    }
    .phoneHeadText{
       font-size: 28px;
-      width: 450px;
+      width: 270px;
    }
    .phonesection-detail{
       font-size: 16px;
@@ -858,6 +878,13 @@ top: 24%;
    .secured
    {
       top: 550px;
+   }
+
+}
+@media (max-width:700px)
+{
+   .phoneSection{
+      top: 1000px;
    }
 }
 @media (min-width:300px) and (max-width:480px)
@@ -878,7 +905,7 @@ top: 24%;
    }
    .clients-orange,.works-purple
    {
-      font-size: 21px
+      font-size: 14px
    }
    .PostAD,.searchVehicle,.signIn{
       left: 27%;
@@ -961,16 +988,20 @@ top: 24%;
          height: 95vw;
       }
       .phonesection-detail{
-         width: 300px;
+         width: 260px;
       }
       .loan{
          top: 360px;
-         left: 10px !important;
+         left: 0px !important;
+         width: 250px;
       }
       .secured{
          top: 650px;
       }
       .loanUses{
          top: 2200px;
+      }
+      .loan-desc{
+         width: 190px;
       }
 }
