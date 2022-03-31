@@ -14,11 +14,11 @@ body{
 }
 .navBarLogo{
    position: absolute;
-left: 1.46%;
-top: 13.33%;
-bottom: 10.67%;
-width:170px;
-height:57px;
+   left: 1.46%;
+   top: 13.33%;
+   bottom: 10.67%;
+   width:170px;
+   height:57px;
 }
 .navBarMenu{
    position: absolute;
@@ -218,6 +218,7 @@ line-height: 184.1%;
 letter-spacing: -0.03em;
 color: #1B2D49;
 }
+
 .loan{
    position: absolute;
    width: 278px;
@@ -653,3 +654,217 @@ opacity: 0.75;
    color: #131313;
    opacity: 0.6;
    }
+
+   /* RESPONIVENESS QUREIES */
+
+@media (max-width:1200px)
+{
+.navBarLogo{
+   left: 1.46%;
+   top: 11%;
+}
+.navBarMenu{
+left: 20%;
+right: 40%;
+height: 50px;
+}
+.PostAD{
+   left: 50%;
+   top: 0%;
+   height: 80px;
+}
+.searchVehicle{
+   left: 60%;
+   top: 0%;
+   height: 80px;
+}
+.signIn{
+   left: 75%;
+   top: 0%;
+   height: 80px;
+}
+.hr{
+
+left: 87%;
+top: 20%;
+height: 45px;
+}
+.navBar-btn{
+
+left: 89%;
+top: 24%;
+}
+.landingIntroImg
+{
+   left: 30vw;
+   height: 40vw;
+   right: 30vw;
+   top: 600px;
+   width: 40vw;
+}
+.landingtext,.intro-amount,.intro-method{
+   left: 30vw;
+   right: 30vw;
+   width: 40vw;
+}
+.landig-start-btn,.FairStoneLogo{
+   left: 30vw;
+}
+.intro-amount{
+   top: 130px;
+   line-height: 28px;
+}
+.intro-method{
+   top: 240px;
+   line-height: 22px;
+}
+.landingtext
+{
+   line-height: 45px;
+   font-size: 45px;
+}
+}
+@media (max-width:768px)
+{
+   .navBarLogo
+   {
+      width: 200px;
+      height: 100px;
+   }
+   .navigationBar{
+      height: 105px;
+   }
+   .navBarMenu
+   {
+      left: 32%;
+      top: 32%;
+      right: 10%;
+      height: 50px;
+      margin-bottom: 80px;
+   }
+.clients-orange
+{
+   font-size: 19px
+}
+.works-purple
+{
+   font-size: 20px;
+   margin-right: 7px;
+}
+   .PostAD,.searchVehicle,.signIn{
+      top: 40%;
+      height: 80px;
+   }
+   .PostAD{
+      left: 30%;
+   }
+   .searchVehicle{
+      left: 44%;
+   }
+   .signIn{
+      left: 64%;
+   }
+   .navBar-btn{
+
+      left: 85%;
+      top: 39%;
+      }
+
+   .intro-amount{
+      top: 170px;
+   }
+   .intro-method
+   {
+      top: 320px;
+   }
+   .landig-start-btn
+   {
+      top: 420px;
+   }
+   .FairStoneLogo
+   {
+      top: 495px;
+   }
+   .hr
+   {
+      display: none !important;
+   }
+}
+@media (min-width:300px) and (max-width:480px)
+{
+   .navigationBar{
+      height: 300px;
+   }
+   .navBarLogo
+   {
+      left: 20%;
+      top: 0%;
+   }
+   .navBarMenu
+   {
+      top: 30%;
+      right: 2%;
+      left: 10%;
+   }
+   .clients-orange,.works-purple
+   {
+      font-size: 15px
+   }
+   .PostAD,.searchVehicle,.signIn{
+      left: 27%;
+   }
+   .works-purple{
+      margin-right: 0px;
+   }
+   .PostAD{
+      top: 35%;
+   }
+   .searchVehicle{
+      top: 50%;
+   }
+   .signIn{
+      top:63%;
+   }
+   .navBar-btn{
+
+      left: 27%;
+      top: 84%;
+      width: 120px;
+      bottom: 4%;
+      }
+      .landingtext
+      {
+         top: 190px;
+         font-size: 15px;
+         line-height: 15px;
+         max-width: 150px;
+      }
+      .intro-amount
+      {
+         top: 250px;
+         font-size: 10px;
+         line-height: 12px;
+         max-width: 120px;
+      }
+      .intro-method
+      {
+         top: 310px;
+         font-size: 9px;
+         line-height: 12px;
+         max-width: 100px;
+      }
+      .FairStoneLogo,.landig-start-btn
+      {
+         left: 30vw;
+         right: 30vw;
+         width: 40vw;
+      }
+      .landig-start-btn
+      {
+         height: 40px;
+         width: 36vw;
+      }
+      .fairstone{
+         width: 100%;
+      }
+}
