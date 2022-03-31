@@ -732,7 +732,7 @@ top: 24%;
 }
 .phoneSection
 {
-   top: 1000px;
+   top: 1200px;
 }
 .phonesubsection,.landing-phone{
    left: 25vw;
@@ -744,6 +744,13 @@ top: 24%;
 .phone-start-btn{
    left: 0;
    top: 560px;
+}
+.loanUses
+{
+   top: 2800px;
+}
+.uses{
+   padding-left: 130px;
 }
 }
 @media (max-width:768px)
@@ -823,15 +830,34 @@ top: 24%;
    }
    .landing-phone
    {
-      top: 670px;
+      top: 950px;
    }
    .phonesubsection,.landing-phone
    {
       left: 10vw;
    }
    .phone-start-btn{
-      left: 0;
-      top: 560px;
+      left: 100px;
+      top: 840px;
+      width: 287px;
+   }
+   .uses{
+      padding-left: 90px;
+   }
+   .phoneHeadText{
+      font-size: 28px;
+      width: 450px;
+   }
+   .phonesection-detail{
+      font-size: 16px;
+      width: 520px;
+   }
+   .loan{
+      left: 100px  !important;
+   }
+   .secured
+   {
+      top: 550px;
    }
 }
 @media (min-width:300px) and (max-width:480px)
@@ -852,7 +878,7 @@ top: 24%;
    }
    .clients-orange,.works-purple
    {
-      font-size: 10px
+      font-size: 21px
    }
    .PostAD,.searchVehicle,.signIn{
       left: 27%;
@@ -907,25 +933,44 @@ top: 24%;
       {
          height: 40px;
          width: 36vw;
-         top: 350px;
+         top: 360px;
+      }
+      .FairStoneLogo{
+         top: 410px;
       }
       .phone-start-btn
       {
-         top: 590px;
-         left: 5px;
+         top: 960px;
+         left: 10px;
       }
       .fairstone{
          width: 100%;
       }
       .phoneSection
       {
-         top: 820px;
+         top: 890px;
       }
       .phonesubsection{
          top: 0px;
       }
       .landing-phone
       {
-         top: 640px;
+         top: 1000px;
+         left: 0px;
+         width: 96vw;
+         height: 95vw;
+      }
+      .phonesection-detail{
+         width: 300px;
+      }
+      .loan{
+         top: 360px;
+         left: 10px !important;
+      }
+      .secured{
+         top: 650px;
+      }
+      .loanUses{
+         top: 2200px;
       }
 }
