@@ -1,193 +1,324 @@
 body{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
+   font-family: Calibri;
 }
-/* NAV BAR STYLING */
-.navBar
-{
-   box-shadow: 0px 4px 8px -9px rgb(112, 108, 108);
-   padding: 0px 12px;
+/* NavBar Styling */
+.navigationBar{
+   position: absolute;
+   height: 75px;
+   width: 100%;
+   left: 0px;
+   top: 0px;
+   box-shadow: 0px 20px 60px rgba(38, 47, 86, 0.04);
 }
-.navBar,.navBarMenu, .navBarActionMenu,.navBarActionMenuItem,.landig-start-btn,.loanTypes,.phoneSection
-{
+.navBarLogo{
+   position: absolute;
+   left: 1.46%;
+   top: 13.33%;
+   bottom: 10.67%;
+   width:170px;
+   height:57px;
+}
+.navBarMenu{
+   position: absolute;
+left: 15.67%;
+right: 60%;
+top: 37.33%;
+bottom: 34.67%;
+}
+.works-purple{
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #644E77;
+}
+.clients-orange{
+
+   font-style: normal;
+   font-weight: 900;
+   font-size: 16px;
+   line-height: 21px;
+   color: #FB5100;
+   position: absolute;
+}
+.PostAD{
+   position: absolute;
+left: 63%;
+top: 33.33%;
+bottom: 30%;
+}
+.searchVehicle{
+   position: absolute;
+left: 71%;
+top: 33.33%;
+bottom: 30%;
+}
+.signIn{
+   position: absolute;
+left: 82%;
+top: 30.67%;
+bottom: 29.33%;
+padding-right:7px;
+}
+.hr{
+   position: absolute;
+left: 91%;
+top: 20.67%;
+bottom: 20%;
+border-left: 1px solid #D4D0DD;
+}
+.navBar-btn{
+   position: absolute;
+left: 92%;
+top: 24%;
+bottom: 22.67%;
+color: white;
+background: #FB5100;
+border: 1px solid #FB5100;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.navBarActionMenu div{
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
    align-items: center;
 }
-.navBarLogo
-{
-   width: 206px;
-   height: 57px;
+.menuImg{
+   margin: 0px 8px;
 }
-.navBar-btn
-{
-   background-color: #FB5100;
-   border: none;font-weight: bold;
-   border-radius: 5px;
-   color: white;
-   padding: 15px;
-}
-.navBarMenuItem
-{
-   margin-left: 20px;
-   color: #FB5100;
-   font-weight: bold;
-}
-.works-purple
-{
-   color: #53356F;
-   margin-left: 15px;
-}
-.menuText
-{
-   margin: 0px 5px;
-}
-.navBarActionMenuItem
-{
-   margin-left: 20px;
-   color: #53356F;
-}
-.arrowdown
-{
-   padding-left:7px ;
-}
-hr
-{
-   height: 45px;
-   margin: 15px;
-}
-/* Intro section */
+
+/* landing intro section */
 .intro
 {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   padding: 0% 5%;
+   position: absolute;
+   height: 721px;
+   left: 0px;
+   top: 114px;
 }
-.introText
-{
-   width: 576px;
-   padding: 45px;
-}
-.landingIntroImg
-{
-   width: 470px;
-   height: 390px;
+.landingIntroImg{
+
+width: 600px;
+height: 540px;
+top: 5px;
+position: absolute;
+left: 700px;
+background: #FFFFFF;
 }
 .landingtext
 {
-   max-width: 520px;
-   color: #53356F;
-   padding-block: 20px 0px;
+   position: absolute;
+   width: 550px;
+height: 176px;
+left: 100px;
+
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -0.03em;
+color: #53356F;
 }
 .intro-amount
 {
-   max-width: 460px;
+   position: absolute;
+width: 500px;
+height: 93px;
+left: 100px;
+top:155px;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+color: #000000;
 }
 .intro-method
 {
-   max-width: 430px;
-   font-size: smaller;
-   color: #8D97A7;
+   top:250px;
+   position: absolute;
+width: 400px;
+height: 88px;
+left: 100px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+color: #8D97A7;
 }
-.landig-start-btn
+.landig-start-btn,.table-start-btn
 {
+   position: absolute;
+   width: 220px;
+   height: 65px;
    background-color: #41B9E6;
    border: none;
-   font-weight: bold;
    color: white;
-   padding: 5px 40px;
-   margin-top: 45px;
-   margin-bottom: 20px;
    border-radius: 6px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
 }
-.start-btn-text
-{
-   margin-right: 20px;
+.landig-start-btn{
+   left: 100px;
+   top: 355px;
 }
-/* Phone section */
+.FairStoneLogo{
+   position: absolute;
+width: 251px;
+height: 84px;
+left: 100px;
+top: 435px;
+}
+
+/* phone section styling */
+.phoneSection{
+   position: absolute;
+top: 720px;
+height: 840px;
+width: 93%;
+background: #FDFDFD;
+}
 .landing-phone
 {
-   width: 100%;
-}
-.phoneSection
-{
-   padding: 6% 10%;
-   background-color: #FCFCFC;
-}
-.loan
-{
-   border: #41B9E6 3px solid;
-   border-radius: 8px;
-   max-width: 230px;
-   padding: 9px;
-   color: #53356F;
+   position: absolute;
+width: 630px;
+height: 670px;
+left: 80px;
+top:100px;
 }
 .phonesubsection
 {
-   width: 50%;
-   margin: 0px 10px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: absolute;
+   left: 710px;
+top:100px;
 }
-.phoneHeadText
-{
-   color: #53356F;
-   max-width: 370px;
+.phoneHeadText{
+   position: absolute;
+width: 400px;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: -0.03em;
+
+color: #53356F;
 }
-.loanBoldText
-{
-   font-weight: bold;
+.phonesection-detail{
+   position: absolute;
+width: 550px;
+height: 203px;
+top: 100px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 184.1%;
+letter-spacing: -0.03em;
+color: #1B2D49;
+}
+
+.loan{
+   position: absolute;
+   width: 278px;
+   height: 275px;
+   top:260px;
+   background: #FDFDFD;
+   border: 3px solid #41B9E6;
+   border-radius: 8px;
+}
+.loanTypes .secured{
+left:302px;
+}
+.loanBoldText,.details{
+   position: absolute;
+   font-style: normal;
+   left: 35px;
+   font-weight: 700;
+   font-size: 20px;
+   letter-spacing: -0.03em;
+   color: #3F2355;
    margin: 0;
 }
-.arrowflex
-{
+.loanBoldText{
+   top: 5%;
+}
+.details{
+   top:60%;
+}
+.arrowflex{
+   position: absolute;
    display: flex;
    flex-direction: row;
    align-items: center;
+   justify-content: center;
+   left: 35px;
+   top: 12%;
 }
-.loan-desc
-{
-   margin: 0;
-   margin-bottom: 10px;
+.loan-desc,li{
+   position: absolute;
+width: 220px;
+
+
+left: 35px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.03em;
+color: #1B2D49;
 }
-.phone-start-btn
-{
-   margin-top: 30px;
+.loan-desc{
+   top: 25%;
+   margin-block:20px;
 }
-.phoneSection ul {
-margin: 0;
+.detail-list li{
+   top: 63%;
+   left: 60px;
 }
-/* 29 03 2022 */
+.list1-item1{
+   padding-top: 20px;
+}
+.list1-item2{
+   padding-top: 35px;
+}
+.list1-item3{
+   padding-top: 50px;
+}
+.phone-start-btn{
+   left: 0px;
+   top:563px;
+}
+/* section 3 */
 .loanUses{
+   position: absolute;
+   top: 1570px;
    margin-bottom: 4%;
 }
 .useSectionRow
 {
    display: flex;
-   direction: row;
+   flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   padding: 1% 12%;
 }
 .useSectionHeading
 {
+   position: absolute;
    width: 785px;
-   height: 44px;
-   margin: auto;
-   padding: 3% 0px;
-   font-family: 'Basis Grotesque Pro';
+   left: 367px;
    font-style: normal;
    font-weight: 900;
-   font-size: 36px;
+   font-size: 30px;
    line-height: 46px;
    letter-spacing: -0.03em;
    color: #53356F;
 }
 .useSection
 {
+   margin-right:35px;
+   margin-bottom: 30px;
    min-width: 300px;
    height: 257px;
    padding:  30px;
@@ -205,7 +336,7 @@ margin: 0;
    font-family: 'Basis Grotesque Pro';
    font-style: normal;
    font-weight: 900;
-   font-size: 18px;
+   font-size: 17px;
    line-height: 23px;
    letter-spacing: -0.03em;
    color: #3F2A56;
@@ -222,16 +353,25 @@ margin: 0;
    letter-spacing: -0.03em;
    color: #5A687C;
 }
-
 .uses{
-   padding: 30px 55px;
+   padding-left: 195px;
+   padding-bottom: 60px;
+   padding-top: 150px;
 }
-
-/* reasons and methods decribption section */
-.descSection
-{
-   display: grid;
-   grid-template-columns: 67% 33%;
+/* section 4  */
+.descSection{
+   position: absolute;
+   width: 900px;
+   height: 700px;
+   background: #F5F5F5;
+   top:2400px;
+}
+.descSectionPic{
+   position: absolute;
+   height: 723px;
+   width: 49.9%;
+   left: 900px;
+   top:0px;
 }
 .descSectionText
 {
@@ -241,19 +381,13 @@ margin: 0;
    justify-content: space-between;
    padding: 65px;
 }
-.descSectionPic
-{
-   max-width: 100%;
-   min-height: 100%;
-   background: url(FinanceThat_MontrealPhotoshoot13_606x757_EN.jpg);
-}
 .descDetailHeading
 {
    font-family: 'Basis Grotesque Pro';
    font-style: normal;
    font-weight: 900;
-   font-size: 36px;
-   max-width: 379px;
+   font-size: 32px;
+   max-width: 360px;
    line-height: 46px;
    letter-spacing: -0.03em;
    color: #53356F;
@@ -263,9 +397,10 @@ margin: 0;
 {
    color: #3F2A56;
    background-color: white;
-   border-radius: 100%;
+   border-radius: 50%;
    padding: 11px;
-   max-height: 20px;
+   height: 20px;
+   width: 20px;
    margin-top: 30px;
    margin-right: 10px;
    font-weight: bolder;
@@ -289,9 +424,6 @@ margin: 0;
 }
 .stepDesc
 {
-   font-family: 'Basis Grotesque Pro';
-   font-style: normal;
-   font-weight: 400;
    font-size: 16px;
    line-height: 150.1%;
    letter-spacing: -0.03em;
@@ -299,13 +431,24 @@ margin: 0;
    max-width: 283px;
    margin: 0;
 }
+.desc-btn{
+   left: 118px;
+    top: 560px;
+}
+.methodStep{
+min-height: 120px;
+}
+/* loan plans section */
 .plans{
+   position: absolute;
+   top:3080px;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    padding-top: 50px;
    padding-bottom: 100px;
+   width: 100%;
 }
 .plancontent
 {
@@ -319,17 +462,17 @@ margin: 0;
    font-family: 'Basis Grotesque Pro';
    font-style: normal;
    font-weight: 900;
-   font-size: 36px;
+   font-size: 32px;
    line-height: 46px;
    letter-spacing: -0.03em;
    color: #53356F;
-   max-width: 640px;
+   max-width: 570px;
 }
 .plans th{
    font-family: 'Basis Grotesque Pro';
    font-style: normal;
    font-weight: 900;
-   font-size: 25px;
+   font-size: 20px;
    line-height: 30px;
    letter-spacing: -0.03em;
    color: #FFFFFF;
@@ -375,10 +518,9 @@ margin: 0;
 }
 .logo-fairstone{
    padding: 0% !important;
-   float: left;
 }
 .table-start-btn{
-   margin-left: 120px;
+   margin-left: 81px;
 }
 .copyright-text{
 left: 342px;
@@ -390,118 +532,673 @@ letter-spacing: -0.03em;
 color: #060606;
 opacity: 0.75;
 }
+
 /* footer */
+.footer{
+   position: absolute;
+   top: 4130px;
+   width: 100%;
+}
 .getFinancing{
-position: absolute;
-max-width: 47%;
-background: #F8F8FA;
-padding-top: 25px;
-padding-left: 40px;
-padding-bottom: 100px;
-}
-.summary{
-position: absolute;
-max-width: 50%;
-left: 50%;
-background: #FFFFFF;
-}
-.footerHead{
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 130%;
-color: #3F2355;
-max-width: 450px;
-}
-.foot-intro{
+   position: absolute;
+   max-width: 47%;
+   background: #F8F8FA;
+   padding-top: 25px;
+   padding-left: 40px;
+   padding-bottom: 100px;
+   }
+   .summary{
+   position: absolute;
+   max-width: 50%;
+   left: 50%;
+   background: #FFFFFF;
+   }
+   .footerHead{
    font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 160%;
-letter-spacing: 0.004em;
-color: #828385;
-max-width: 500px;
-}
-.client-orange{
-   color: #FB5100;
-}
-.contact{
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 130%;
+   color: #3F2355;
+   max-width: 450px;
+   }
+   .foot-intro{
+      font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 160%;
+   letter-spacing: 0.004em;
+   color: #828385;
+   max-width: 500px;
+   }
+   .client-orange{
+      color: #FB5100;
+   }
+   .contact{
+      display: flex;
+      flex-direction: row;
+   }
+   .contact div{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   }
+   .contact div p {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 21px;
+   padding-right: 20px;
+   padding-left: 10px;
+   color: #3F2355;
+   }
+   .contactimg,.connect-icons{
+      margin-left: -10%;
+   }
+   .img-bg{
+      background: #D4D0DD;
+      padding: 10px;
+      border-radius: 100%;
+   }
+   .phone-bg{
+      padding: 7px 12px;
+   }
+   .contatc-links{
+      max-width: 350px;
+   }
+   .connect-icons{
+      margin-block: -6%;
+   }
+   .summary{
+      padding: 30px 70px;
+   }
+   .foot-intro2{
+      font-style: normal;
+   font-weight: 400px;
+   font-size: 13px;
+   line-height: 160%;
+   color: #828385;
+   }
+   .foot-finishline
+   {
+      font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 150%;
+   letter-spacing: 0.004em;
+   color: #828385;
+   }
+   .foot-copyRight{
+      font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
    display: flex;
-   flex-direction: row;
-}
-.contact div{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
    align-items: center;
-}
-.contact div p {
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 21px;
-padding-right: 20px;
-padding-left: 10px;
-color: #3F2355;
-}
-.contactimg,.connect-icons{
-   margin-left: -10%;
-}
-.img-bg{
-   background: #D4D0DD;
-   padding: 10px;
-   border-radius: 100%;
-}
-.phone-bg{
-   padding: 7px 12px;
-}
-.contatc-links{
-   max-width: 350px;
-}
-.connect-icons{
-   margin-block: -6%;
-}
-.summary{
-   padding: 30px 70px;
-}
-.foot-intro2{
-   font-style: normal;
-font-weight: 400px;
-font-size: 13px;
-line-height: 160%;
-color: #828385;
-}
-.foot-finishline
+   color: #3F2355;
+   }
+   .footer-table thead td{
+      font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 31px;
+   color: #3F2355;
+   opacity: 1 !important;
+   }
+   .footer-table td{
+      font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   padding-left: 20px;
+   line-height: 43px;
+   color: #131313;
+   opacity: 0.6;
+   }
+
+   /* RESPONIVENESS QUREIES */
+
+@media (max-width:1200px)
 {
-   font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 150%;
-letter-spacing: 0.004em;
-color: #828385;
+.navBarLogo{
+   left: 1.46%;
+   top: 11%;
 }
-.foot-copyRight{
-   font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-display: flex;
-align-items: center;
-color: #3F2355;
+.navBarMenu{
+left: 20%;
+right: 40%;
+height: 50px;
 }
-.footer-table thead td{
-   font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 31px;
-color: #3F2355;
+.PostAD{
+   left: 50%;
+   top: 0%;
+   height: 80px;
 }
-.footer-table td{
-   font-style: normal;
-font-weight: 400;
-font-size: 13px;
-padding-left: 20px;
-line-height: 53px;
-color: #131313;
-opacity: 0.6;
+.searchVehicle{
+   left: 60%;
+   top: 0%;
+   height: 80px;
+}
+.signIn{
+   left: 75%;
+   top: 0%;
+   height: 80px;
+}
+.hr{
+
+left: 87%;
+top: 20%;
+height: 45px;
+}
+.navBar-btn{
+
+left: 89%;
+top: 24%;
+}
+.landingIntroImg
+{
+   left: 20vw;
+   height: 60vw;
+   right: 20vw;
+   top: 390px;
+   width: 60vw;
+}
+.landingtext,.intro-amount,.intro-method{
+   left: 10vw;
+   right: 10vw;
+   width: 80vw;
+}
+.landig-start-btn,.FairStoneLogo{
+   left: 10vw;
+   top: 230px;
+}
+.FairStoneLogo{
+   top: 310px;
+}
+.intro-amount{
+   top: 85px;
+   line-height: 20px;
+   max-width: 60vw;
+}
+.intro-method{
+   top: 150px;
+   line-height: 20px;
+   max-width: 55vw;
+}
+.landingtext
+{
+   line-height: 30px;
+   font-size: 45px;
+   max-width: none;
+}
+.useHeading{
+   font-size: 13px;
+   line-height: 20px;
+   max-width: 100px;
+}
+.useText{
+   font-size: 12px;
+   max-width: 130px;
+}
+.useSection{
+   max-width: 100px;
+   min-width: fit-content;
+   height: 272px;
+}
+.useSectionHeading{
+   left: 20vw !important;
+   max-width: fit-content;
+}
+.uses{
+   padding-left: 16vw !important;
+}
+.phoneSection
+{
+   top: 1200px;
+}
+.phonesubsection,.landing-phone{
+   left: 25vw;
+}
+.landing-phone
+{
+   top: 790px;
+}
+.phone-start-btn{
+   left: 0;
+   top: 560px;
+}
+.loanUses
+{
+   top: 2800px;
+}
+.uses{
+   padding-left: 20vw;
+}
+.descSection{
+   top:3600px;
+   width: 100%;
+}
+.descSectionPic{
+   height: 60vw;
+   width: 60vw;
+   left:20vw;
+   top:720px;
+}
+.desc-btn{
+top: 600px;
+}
+.plans{
+   top: 5000px;
+}
+.footer{
+   top:6000px;
+}
+.getFinancing,.summary
+{
+   max-width: 70% !important;
+   left: 19%;
+}
+.summary
+{
+   top: 600px;
+   left: 14%;
+}
+.foot-intro2,.foot-finishline{
+   max-width: 80%;
+}
+}
+@media (max-width:768px)
+{
+   .navBarLogo
+   {
+      width: 200px;
+      height: 100px;
+   }
+   .navigationBar{
+      height: 105px;
+   }
+   .navBarMenu
+   {
+      left: 32%;
+      top: 32%;
+      right: 10%;
+      height: 50px;
+      margin-bottom: 80px;
+   }
+.clients-orange
+{
+   font-size: 19px
+}
+.works-purple
+{
+   font-size: 20px;
+   margin-right: 7px;
+}
+.table-start-btn
+{
+   top: 720px;
+   left: 120px;
+}
+   .PostAD,.searchVehicle,.signIn{
+      top: 40%;
+      height: 80px;
+   }
+   .PostAD{
+      left: 30%;
+   }
+   .searchVehicle{
+      left: 44%;
+   }
+   .signIn{
+      left: 64%;
+   }
+   .navBar-btn{
+
+      left: 85%;
+      top: 39%;
+      }
+.landingtext
+{
+   line-height: 40px;
+}
+.landingIntroImg
+{
+   top: 500px;
+}
+   .intro-amount{
+      top: 120px;
+   }
+   .intro-method
+   {
+      top: 230px;
+   }
+   .landig-start-btn
+   {
+      top: 330px;
+   }
+   .FairStoneLogo
+   {
+      top: 400px;
+   }
+   .hr
+   {
+      display: none !important;
+   }
+   .phonesubsection{
+      top: 50px;
+   }
+   .landing-phone
+   {
+      top: 950px;
+   }
+   .phonesubsection,.landing-phone
+   {
+      left: 10vw;
+   }
+   .phone-start-btn{
+      left: 100px;
+      top: 840px;
+      width: 287px;
+   }
+   .phoneHeadText{
+      font-size: 28px;
+      width: 270px;
+      line-height: 35px;
+   }
+   .phonesection-detail{
+      font-size: 16px;
+      width: 520px;
+   }
+   .loan{
+      left: 100px  !important;
+   }
+   .secured
+   {
+      top: 550px;
+   }
+   .useSection
+   {
+      height: 257px;
+      min-width: 310px;
+      margin-left: 45%;
+   }
+   .useSectionHeading{
+      max-width: 400px;
+      left: 44% !important;
+   }
+   .useHeading,.useText
+   {
+      max-width: 200px;
+   }
+   .useSectionRow
+   {
+      flex-direction: column;
+   }
+   .descSection{
+      top: 4750px;
+      width: 100%;
+   }
+   .descSectionPic{
+      height: 90vw;
+      width: 100vw;
+      left:0vw;
+      top:1319px;
+   }
+   .methodStep{
+      min-height: 130px;
+   }
+   .desc-btn{
+   top: 557px;
+   left: 116px;
+   }
+   .descSectionText{
+      flex-direction: column;
+   }
+   .reasonHead{
+      margin-top: 80px;
+   }
+   .plans{
+      top: 6800px;
+   }
+   .table-start-btn
+   {
+      margin-left: 10px;
+   }
+   .plans tbody td{
+      padding: 3px;
+      max-width: 100px;
+   }
+   .planHeading{
+      font-size: 20px;
+      line-height: 25px;
+   }
+   .plans th{
+      font-size: 15px;
+      line-height: 24px;
+   }
+   .plans th{
+      padding: 5px 10px;
+   }
+   .footer{
+      top:7650px;
+   }
+   .getFinancing,.summary
+   {
+      min-width: 100% !important;
+      left: 0%;
+   }
+   .summary
+   {
+      top: 600px;
+      left: 0%;
+   }
+   .foot-intro2,.foot-finishline{
+      max-width: 80%;
+   }
+}
+@media (max-width:700px)
+{
+   .phoneSection{
+      top: 1000px;
+   }
+}
+@media (min-width:300px) and (max-width:480px)
+{
+   .navigationBar{
+      height: 300px;
+   }
+   .navBarLogo
+   {
+      left: 20%;
+      top: 0%;
+   }
+   .navBarMenu
+   {
+      top: 30%;
+      right: 2%;
+      left: 10%;
+   }
+   .clients-orange,.works-purple
+   {
+      font-size: 14px
+   }
+   .PostAD,.searchVehicle,.signIn{
+      left: 27%;
+   }
+   .works-purple{
+      margin-right: 0px;
+   }
+   .PostAD{
+      top: 35%;
+   }
+   .searchVehicle{
+      top: 50%;
+   }
+   .signIn{
+      top:63%;
+   }
+   .navBar-btn{
+
+      left: 27%;
+      top: 84%;
+      width: 120px;
+      bottom: 4%;
+      }
+      .landingtext
+      {
+         top: 190px;
+         font-size: 15px;
+         line-height: 15px;
+         max-width: 60vw;
+      }
+      .intro-amount
+      {
+         top: 250px;
+         font-size: 10px;
+         line-height: 12px;
+         max-width: 70vw;
+      }
+      .intro-method
+      {
+         top: 310px;
+         font-size: 9px;
+         line-height: 12px;
+         max-width: 75vw;
+      }
+      .FairStoneLogo,.landig-start-btn
+      {
+         left: 30vw;
+         right: 30vw;
+         width: 40vw;
+      }
+      .landig-start-btn
+      {
+         height: 40px;
+         width: 36vw;
+         top: 360px;
+      }
+      .FairStoneLogo{
+         top: 410px;
+      }
+      .phone-start-btn
+      {
+         top: 960px;
+         left: 10px;
+      }
+      .fairstone{
+         width: 100%;
+      }
+      .phoneSection
+      {
+         top: 890px;
+      }
+      .phonesubsection{
+         top: 0px;
+      }
+      .landing-phone
+      {
+         top: 1000px;
+         left: 0px;
+         width: 96vw;
+         height: 95vw;
+      }
+      .phonesection-detail{
+         width: 260px;
+      }
+      .loan{
+         top: 360px;
+         left: 0px !important;
+         width: 250px;
+      }
+      .secured{
+         top: 650px;
+      }
+      .loanUses{
+         top: 2200px;
+      }
+      .loan-desc{
+         width: 190px;
+      }
+      .useSection
+   {
+      height: 280px;
+      min-width: 190px;
+      margin-left: 2%;
+   }
+   .useSectionHeading{
+      max-width: 250px;
+      left: 5% !important;
+      line-height: 25px;
+      font-size: 20px;
+   }
+   .useHeading,.useText
+   {
+      max-width: 120px;
+   }
+   .descSection{
+      top: 4250px ;
+   }
+   .uses{
+      padding-left: 18vw !important;
+   }
+   .descSectionPic{
+      width: 100vw;
+      height: 100vw;
+      top: 1900px;
+   }
+   .descSectionText{
+      flex-direction: column;
+   }
+   .desc-btn{
+      top: 850px;
+   }
+   .descDetailHeading{
+      font-size: 23px;
+      line-height: 30px;
+   }
+   .plans{
+      top: 6500px;
+   }
+   .table-start-btn {
+      top: 850px;
+      left: 10px;
+   }
+   .footer{
+      top: 7500px;
+   }
+   .getFinancing,.summary
+   {
+      box-sizing: border-box;
+   }
+   .connect-icons{
+      margin-top: 0%;
+      margin-bottom: -6%;
+      max-width: 100px;
+      min-height: 100px;
+   }
+   .footerHead{
+      max-width: 230px;
+   }
+   .summary
+   {
+      top: 850px;
+      left: 0%;
+      padding:5%;
+   }
+
+   .footer-table td
+   {
+      padding: 3% 0%;
+      line-height: 15px;
+      font-size: 11px;
+      opacity: 1 !important;
+   }
+   .footer-table thead td
+   {
+      padding-right: 3%;
+      font-size: 12px;
+   }
+   .contact
+   {
+      flex-direction: column;
+   }
 }

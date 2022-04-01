@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="https://use.fontawesome.com/e2eabc0823.js"></script>
+   <title>FinanceThat</title>
+</head>
+<body>
+   <!-- 28/03/2022 -->
+   <div class="navBar">
+      <div class="navBarMenu">
+         <img src="images/logo.svg" alt="FinanceThat" class="navBarLogo">
+         <div class="navBarMenuItem works-purple">How it works for</div>
+         <div class="navBarMenuItem">buyers</div>
+         <div class="navBarMenuItem">seller</div>
+         <div class="navBarMenuItem">dealers</div>
+      </div>
+      <div class="navBarActionMenu">
+         <div class="navBarActionMenuItem">
+            <img src="images/postadIcon.png" alt="FinanceThat" class="menuImg">
+            <p class="menuText">Post Ad</p>
+         </div>
+         <div class="navBarActionMenuItem">
+            <img src="images/postadIcon.png" alt="FinanceThat" class="menuImg">
+            <p class="menuText">Search Vehicles</p>
+         </div>
+         <div class="navBarActionMenuItem">
+            <img src="images/gg_profile.png" alt="FinanceThat" class="menuImg">
+            <p class="menuText">Sign In</p>
+            <img src="images/arrowdown.png" alt="FinanceThat" class="menuImg arrowdown">
+         </div>
+         <hr>
+         <div class="navBarButton">
+            <button class="navBar-btn">Get Financing</button>
+         </div>
+      </div>
+   </div>
+   <div class="intro">
+      <div class="introText">
+         <h1 class="landingtext">
+            Personal loans up to $50,000 from Fairstone
+         </h1>
+         <p class="intro-amount">
+            Borrow $500-$50,000 to consolidate debt, cover unexpected expenses or give your budget flexibility.
+         </p>
+         <p class="intro-method">
+            Start with a loan quote to find out how much money you could qualify for – it’s quick and won’t impact your credit score.
+         </p>
+         <div>
+            <button class="landig-start-btn">
+               <p class="start-btn-text">Get Started</p>
+               <img src="images/arrowright.png" alt="arrowright">
+            </button>
+         </div>
+         <div>
+            <img src="images/fairStoneLogo.png" alt="FairStoneLogo">
+         </div>
+      </div>
+      <div class="introPic">
+         <img src="images/introImg.png" alt="" class="landingIntroImg">
+      </div>
+   </div>
+   <div class="phoneSection">
+      <div class = "phonesubsection">
+         <img src="images/FinanceThat_IQPhones.png" alt="FairStoneLogo" class="landing-phone">
+      </div>
+      <div class="phonesubsection">
+         <h1 class="phoneHeadText">
+            Fairstone personal loans from $500-$50,000
+         </h1>
+         <p>
+            Interested in borrowing money for a reason other than a vehicle purchase? Our trusted partner, Fairstone, offers secured and unsecured personal loans online and at 240+ branches coast to coast. With almost 100 years of Canadian lending experience, Fairstone can find an affordable loan solution that suits your needs, budget and lifestyle.
+         </p>
+         <div class="loanTypes">
+            <div class="loan">
+               <p class="loanBoldText">Unsecured personal loan</p>
+               <div class="loanBoldText arrowflex">
+                  <img src="images/rightCircle.png" alt="right arrow">
+                  <p>$5,00-$25,000</p>
+               </div>
+               <p class="loan-desc">
+                  Get the money you need with
+                  manageable and affordable payments
+                  that fit your budget.
+               </p>
+               <p class="loanBoldText">Details:</p>
+               <ul>
+                  <li> No homeownership required</li>
+                  <li>No pre-payment penalties</li>
+                  <li>Money as soon as today</li>
+               </ul>
+            </div>
+            <div class="loan">
+               <p class="loanBoldText">Secured personal loan</p>
+               <div class="loanBoldText arrowflex">
+                  <img src="images/rightCircle.png" alt="right arrow">
+                  <p>$5,000-$50,000</p>
+               </div>
+               <p class="loan-desc">
+                  Use home equity to access lower interest rates, lower payments and more money.
+               </p>
+               <p class="loanBoldText">Details:</p>
+               <ul>
+                  <li>Homeownership required </li>
+                  <li>Best value for homeowners</li>
+                  <li>Flexible loan terms </li>
+               </ul>
+            </div>
+         </div>
+         <div>
+            <button class="landig-start-btn phone-start-btn">
+               <p class="start-btn-text">Get Started</p>
+               <img src="images/arrowright.png" alt="arrowright">
+            </button>
+         </div>
+      </div>
+   </div>
+   <!-- 29/03/2022 -->
+   <div class="loanUses">
+      <p class="useSectionHeading">
+         What can you use a Fairstone Personal loan for?
+      </p>
+      <div class="uses">
+         <div class="useSectionRow">
+            <div class="useSection">
+               <div class="useicon">
+                  <img src="images/consolidate-debt 1.png" alt="">
+               </div>
+               <div class="useHeading">
+                  Consolidate your debts and bills
+               </div>
+               <div class="useText">
+                  Combine multiple bills and get out of debt faster with one simple monthly payment.
+               </div>
+            </div>
+            <div class="useSection">
+               <div class="useicon">
+                  <img src="images/alert-triangle 1.png" alt="">
+               </div>
+               <div class="useHeading">
+                  Cover emergency expenses
+               </div>
+               <div class="useText">
+                  Manage urgent or unexpected expenses like auto repairs with funds in as little as 24 hours.
+               </div>
+            </div>
+            <div class="useSection">
+               <div class="useicon">
+                  <img src="images/real-estate-action-house-wrench 1.png" alt="">
+               </div>
+               <div class="useHeading">
+                  Manage home repairs and renovations
+               </div>
+               <div class="useText">
+                  Manage small or large home upgrades like new appliances, a roof, flooring, paint and more.
+               </div>
+            </div>
+         </div>
+         <div class="useSectionRow">
+            <div class="useSection">
+               <div class="useicon">
+                  <img src="images/plane-1 1.png" alt="">
+               </div>
+               <div class="useHeading">
+                  Cover wedding expenses
+               </div>
+               <div class="useText">
+                  Manage planned wedding expenses like vendor deposits and attire, or last-minute unexpected costs
+               </div>
+            </div>
+            <div class="useSection">
+               <div class="useicon">
+                  <img src="images/pets-hospital 1.png" alt="">
+               </div>
+               <div class="useHeading">
+                  Give your travel budget flexibility
+               </div>
+               <div class="useText">
+                  Manage the cost of last-minute travel expenses and urgent trips or plan the perfect vacation.
+               </div>
+            </div>
+            <div class="useSection">
+               <div class="useicon">
+                  <img src="images/wedding-certificate 1.png" alt="">
+               </div>
+               <div class="useHeading">
+                  Manage pet & vet bills
+               </div>
+               <div class="useText">
+                  Cover emergency vet expenses like surgeries, procedures and medication, so you can get your pet the care they need.
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="descSection">
+      <div class="descSectionText">
+         <div class="method descDetails">
+            <h2 class="descDetailHeading">
+               How to get a personal loan from Fairstone
+            </h2>
+            <div class="methodStep">
+               <div class="stepIdentity">
+                  <p class="stepNum">1</p>
+                  <div class="descDetailText">
+                     <p class="stepHeading">
+                        Get a loan quote
+                     </p>
+                     <p class="stepDesc">
+                        Enter a few simple details to find out how much money you could qualify for in minutes – no obligation, no impact to your credit score
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="methodStep">
+               <div class="stepIdentity">
+                  <p class="stepNum">2</p>
+                  <div class="descDetailText">
+                     <p class="stepHeading">
+                        Connect with a Lending Specialist
+                     </p>
+                     <p class="stepDesc">
+                        A Fairstone Lending Specialist will be in touch to customize your loan details and answer any questions you may have
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="methodStep">
+               <div class="stepIdentity">
+                  <p class="stepNum">3</p>
+                  <div class="descDetailText">
+                     <p class="stepHeading">
+                        Receive your money quickly
+                     </p>
+                     <p class="stepDesc">
+                        Finalize your loan application online or in-branch and have your money in as little as 24 hours
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <button class="landig-start-btn phone-start-btn">
+               <p class="start-btn-text">Get Started</p>
+               <img src="images/arrowright.png" alt="arrowright">
+            </button>
+         </div>
+         <div class="reasons descDetails">
+            <h2 class="descDetailHeading">
+               Why Canadians choose Fairstone personal loans
+            </h2>
+            <div class="methodStep">
+               <div class="stepIdentity">
+                  <p class="stepNum">1</p>
+                  <div class="descDetailText">
+                     <p class="stepHeading">
+                        Free Loan Quote
+                     </p>
+                     <p class="stepDesc">
+                        You can get a quick, no-obligation loan quote by answering a few basic questions
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="methodStep">
+               <div class="stepIdentity">
+                  <p class="stepNum">2</p>
+                  <div class="descDetailText">
+                     <p class="stepHeading">
+                        Affordable payments
+                     </p>
+                     <p class="stepDesc">
+                        Fairstone will customize your loan and create a payment schedule that fits your needs, budget and lifestyle
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="methodStep">
+               <div class="stepIdentity">
+                  <p class="stepNum">3</p>
+                  <div class="descDetailText">
+                     <p class="stepHeading">
+                        Loans online or in branch
+                     </p>
+                     <p class="stepDesc">
+                        Fairstone offers a quick and secure loan application online or at 240+ branches across Canada
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="methodStep">
+               <div class="stepIdentity">
+                  <p class="stepNum">4</p>
+                  <div class="descDetailText">
+                     <p class="stepHeading">
+                        Personalized service
+                     </p>
+                     <p class="stepDesc">
+                        Whether you get a loan online or in branch, you’ll receive one-on-one service from a knowledgeable Lending Specialist
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <img src="images/FinanceThat_MontrealPhotoshoot13_606x757_EN 1.png" alt="" class="descSectionPic">
+   </div>
+   <div class="plans">
+      <p class="planHeading">Compare Fairstone personal loan options
+         to find out which one is right for you</p>
+      <div class="plancontent">
+         <table cellspacing="0">
+            <thead>
+               <th class="light-gray-Head"><p class="th-text th-right">
+                  Product <br>details
+               </p></th>
+               <th class="light-purple-Head"><p class="th-text">
+                  Unsecured Personal Loan
+               </p></th>
+               <th class="dark-purple-Head"><p class="th-text">
+                  Secured Personal Loan
+               </p></th>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><p class="td-text">Loan amount</p></td>
+                  <td><p class="td-text">$500 - $25,000</p></td>
+                  <td><p class="td-text">$5,000 - $50,000</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Interest Rate</p></td>
+                  <td><p class="td-text">26.99% to 39.99%</p></td>
+                  <td><p class="td-text">19.99% to 23.99%</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Term</p></td>
+                  <td><p class="td-text">6 - 60 months</p></td>
+                  <td><p class="td-text">36 - 120 months</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Secured</p></td>
+                  <td><p class="td-text">No</p></td>
+                  <td><p class="td-text">Yes</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Home ownership required</p></td>
+                  <td><p class="td-text">No</p></td>
+                  <td><p class="td-text">Yes</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Payments</p></td>
+                  <td><p class="td-text">Fixed</p></td>
+                  <td><p class="td-text">Fixed</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Repayment terms</p></td>
+                  <td><p class="td-text">Bi-weekly, semi-monthly or monthly</p></td>
+                  <td><p class="td-text">Bi-weekly, semi-monthly or monthly</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Fees</p></td>
+                  <td><p class="td-text">None</p></td>
+                  <td><p class="td-text">Varies by province</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Prepayment penalties</p></td>
+                  <td><p class="td-text">None</p></td>
+                  <td><p class="td-text">Yes</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Time to process</p></td>
+                  <td><p class="td-text">&lt; 1 day</p></td>
+                  <td><p class="td-text">3+ days (varies by location)</p></td>
+               </tr>
+               <tr>
+                  <td><p class="td-text">Guarantee</p></td>
+                  <td><p class="td-text">14 days</p></td>
+                  <td><p class="td-text">3 days</p></td>
+               </tr>
+               <tr class="lastrow">
+                  <td class="lastrow logo-fairstone">
+                     <img src="images/fairStoneLogo.png" alt="FairStoneLogo" class="fairStoneLogoBelowTable">
+                  </td>
+                  <td class="lastrow"></td>
+                  <td class="lastrow logo-fairstone">
+                     <button class="landig-start-btn table-start-btn">
+                        <p class="start-btn-text">Get Started</p>
+                        <img src="images/arrowright.png" alt="arrowright">
+                     </button>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         <p class="copyright-text">© 2022, ™/® Fairstone Financial Inc.</p>
+      </div>
+   </div>
+   <div class="footer">
+      <div class="getFinancing">
+         <p class="footerHead">
+            Buy, sell and <span class="client-orange">get financing</span> with a click of a button!
+         </p>
+         <p class="foot-intro">
+            Finance That is Canada's first peer-to-peer automotive and powersport marketplace that connects buyers with sellers and provide on spot financing.
+         </p>
+         <div class="contact">
+            <div class="phoneNum">
+               <div class="img-bg phone-bg">
+                  <img src="images/phone.png" alt="Phone">
+               </div>
+               <p>1-844-354-5454 </p>
+            </div>
+            <div class="mail">
+               <div class="img-bg">
+                  <img src="images/mail.png" alt="Mail">
+               </div>
+               <p>info@financethat.ca</p>
+            </div>
+            <img src="images/image 2478.png" alt="" class="contactimg">
+         </div>
+         <div class="contatc-links">
+            <img src="images/Group 76.png" alt="" class="connect-icons">
+            <img src="images/Group 1598.png" alt="" class="connect-icons">
+            <img src="images/Group 12.png" alt="" class="connect-icons">
+         </div>
+         <div>
+            <img src="images/image 2474.png" alt="">
+            <img src="images/image 2475.png" alt="">
+         </div>
+      </div>
+      <div class="summary">
+         <img src="images/logo.svg" alt="">
+         <p class="foot-intro2">Finance That provides one stop shop for all your powersport and automotive buying, selling and financing needs under the same roof.</p>
+         <table class="footer-table" cellspacing="0">
+            <thead>
+               <td>MarketPlace</td>
+               <td>Vehicles</td>
+               <td>Dealers</td>
+               <td>Finance That</td>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Post an ad</td>
+                  <td>Featured listings</td>
+                  <td>Become a dealer</td>
+                  <td>About us</td>
+               </tr>
+               <tr>
+                  <td>Get financing</td>
+                  <td>Under $10,000</td>
+                  <td>How it works</td>
+                  <td>Contact Us</td>
+               </tr>
+               <tr>
+                  <td>Search vehicles</td>
+                  <td>Newly listed</td>
+                  <td>My Dashboard</td>
+                  <td>Privacy Policy</td>
+               </tr>
+               <tr>
+                  <td>How it works</td>
+                  <td>Reduced price</td>
+                  <td>Post an ad</td>
+                  <td>Terms & Conditions</td>
+               </tr>
+            </tbody>
+         </table>
+         <p class="foot-finishline">
+            We are here to help you in many ways. For any questions, you can start the live chat, call our customer service at 1-844-354-5454 or email us at info@financethat.ca
+         </p>
+         <p class="foot-copyRight">2020 © Finance That. All Rights Reserved.</p>
+      </div>
+   </div>
+</body>
+</html>
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+/* NAV BAR STYLING */
+.navBar
+{
+   box-shadow: 0px 4px 8px -9px rgb(112, 108, 108);
+   padding: 0px 12px;
+}
+.navBar,.navBarMenu, .navBarActionMenu,.navBarActionMenuItem,.landig-start-btn,.loanTypes,.phoneSection
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.navBarLogo
+{
+   width: 206px;
+   height: 57px;
+}
+.navBar-btn
+{
+   background-color: #FB5100;
+   border: none;font-weight: bold;
+   border-radius: 5px;
+   color: white;
+   padding: 15px;
+}
+.navBarMenuItem
+{
+   margin-left: 20px;
+   color: #FB5100;
+   font-weight: bold;
+}
+.works-purple
+{
+   color: #53356F;
+   margin-left: 15px;
+}
+.menuText
+{
+   margin: 0px 5px;
+}
+.navBarActionMenuItem
+{
+   margin-left: 20px;
+   color: #53356F;
+}
+.arrowdown
+{
+   padding-left:7px ;
+}
+hr
+{
+   height: 45px;
+   margin: 15px;
+}
+/* Intro section */
+.intro
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0% 5%;
+}
+.introText
+{
+   width: 576px;
+   padding: 45px;
+}
+.landingIntroImg
+{
+   width: 470px;
+   height: 390px;
+}
+.landingtext
+{
+   max-width: 520px;
+   color: #53356F;
+   padding-block: 20px 0px;
+}
+.intro-amount
+{
+   max-width: 460px;
+}
+.intro-method
+{
+   max-width: 430px;
+   font-size: smaller;
+   color: #8D97A7;
+}
+.landig-start-btn
+{
+   background-color: #41B9E6;
+   border: none;
+   font-weight: bold;
+   color: white;
+   padding: 5px 40px;
+   margin-top: 45px;
+   margin-bottom: 20px;
+   border-radius: 6px;
+}
+.start-btn-text
+{
+   margin-right: 20px;
+}
+/* Phone section */
+.landing-phone
+{
+   width: 100%;
+}
+.phoneSection
+{
+   padding: 6% 10%;
+   background-color: #FCFCFC;
+}
+.loan
+{
+   border: #41B9E6 3px solid;
+   border-radius: 8px;
+   max-width: 230px;
+   padding: 9px;
+   color: #53356F;
+}
+.phonesubsection
+{
+   width: 50%;
+   margin: 0px 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.phoneHeadText
+{
+   color: #53356F;
+   max-width: 370px;
+}
+.loanBoldText
+{
+   font-weight: bold;
+   margin: 0;
+}
+.arrowflex
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.loan-desc
+{
+   margin: 0;
+   margin-bottom: 10px;
+}
+.phone-start-btn
+{
+   margin-top: 30px;
+}
+.phoneSection ul {
+margin: 0;
+}
+/* 29 03 2022 */
+.loanUses{
+   margin-bottom: 4%;
+}
+.useSectionRow
+{
+   display: flex;
+   direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1% 12%;
+}
+.useSectionHeading
+{
+   width: 785px;
+   height: 44px;
+   margin: auto;
+   padding: 3% 0px;
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+   color: #53356F;
+}
+.useSection
+{
+   min-width: 300px;
+   height: 257px;
+   padding:  30px;
+   background: #FFFFFF;
+   border: 1px solid #EDEDED;
+   box-sizing: border-box;
+   box-shadow: 0px 0px 18px rgba(108, 126, 147, 0.15);
+   border-radius: 8px;
+}
+.useHeading
+{
+   max-width: 159px;
+   max-height: 50px;
+   padding-block: 5px;
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 23px;
+   letter-spacing: -0.03em;
+   color: #3F2A56;
+}
+.useText
+{
+   width: 198px;
+   height: 43px;
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18px;
+   letter-spacing: -0.03em;
+   color: #5A687C;
+}
+
+.uses{
+   padding: 30px 55px;
+}
+
+/* reasons and methods decribption section */
+.descSection
+{
+   display: grid;
+   grid-template-columns: 67% 33%;
+}
+.descSectionText
+{
+   background: #F5F5F5;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 65px;
+}
+.descSectionPic
+{
+   max-width: 100%;
+   min-height: 100%;
+   background: url(FinanceThat_MontrealPhotoshoot13_606x757_EN.jpg);
+}
+.descDetailHeading
+{
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 36px;
+   max-width: 379px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+   color: #53356F;
+   margin: 5px;
+}
+.stepNum
+{
+   color: #3F2A56;
+   background-color: white;
+   border-radius: 100%;
+   padding: 11px;
+   max-height: 20px;
+   margin-top: 30px;
+   margin-right: 10px;
+   font-weight: bolder;
+   text-align: center;
+}
+.stepHeading{
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 20px;
+   line-height: 31px;
+   letter-spacing: -0.03em;
+   max-width: 400px;
+   color: #3F2355;
+   margin-bottom: 0;
+}
+.stepIdentity
+{
+   display: flex;
+   flex-direction: row;
+}
+.stepDesc
+{
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150.1%;
+   letter-spacing: -0.03em;
+   color: #1B2D49;
+   max-width: 283px;
+   margin: 0;
+}
+.plans{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+   padding-bottom: 100px;
+}
+.plancontent
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.planHeading
+{
+   text-align: center;
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+   color: #53356F;
+   max-width: 640px;
+}
+.plans th{
+   font-family: 'Basis Grotesque Pro';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 30px;
+   letter-spacing: -0.03em;
+   color: #FFFFFF;
+   padding: 7px 45px;
+}
+.dark-purple-Head{
+   background-color: #38244C;
+   text-align: left;
+}
+.light-purple-Head{
+   background: #8D7A9E;
+   text-align: left;
+}
+.light-gray-Head{
+   background: #EFEFEF;
+   color: #5B5B5B !important;
+   text-align: right;
+}
+.th-text{
+   max-width: 150px;
+   margin-block: 0;
+}
+.plans tbody td{
+   text-align: left;
+   padding: 15px 50px;
+}
+.td-text{
+   max-width: 200px;
+   margin: 0;
+}
+.plans tr:nth-child(2n) td
+{
+   background: #EFEFEF;
+}
+.plans tr td:nth-child(1){
+   text-align: right;
+}
+.th-right{
+   max-width: none;
+}
+.lastrow{
+   background-color: white !important;
+}
+.logo-fairstone{
+   padding: 0% !important;
+   float: left;
+}
+.table-start-btn{
+   margin-left: 120px;
+}
+.copyright-text{
+left: 342px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.03em;
+color: #060606;
+opacity: 0.75;
+}
+/* footer */
+.getFinancing{
+position: absolute;
+max-width: 47%;
+background: #F8F8FA;
+padding-top: 25px;
+padding-left: 40px;
+padding-bottom: 100px;
+}
+.summary{
+position: absolute;
+max-width: 50%;
+left: 50%;
+background: #FFFFFF;
+}
+.footerHead{
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 130%;
+color: #3F2355;
+max-width: 450px;
+}
+.foot-intro{
+   font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 160%;
+letter-spacing: 0.004em;
+color: #828385;
+max-width: 500px;
+}
+.client-orange{
+   color: #FB5100;
+}
+.contact{
+   display: flex;
+   flex-direction: row;
+}
+.contact div{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.contact div p {
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+padding-right: 20px;
+padding-left: 10px;
+color: #3F2355;
+}
+.contactimg,.connect-icons{
+   margin-left: -10%;
+}
+.img-bg{
+   background: #D4D0DD;
+   padding: 10px;
+   border-radius: 100%;
+}
+.phone-bg{
+   padding: 7px 12px;
+}
+.contatc-links{
+   max-width: 350px;
+}
+.connect-icons{
+   margin-block: -6%;
+}
+.summary{
+   padding: 30px 70px;
+}
+.foot-intro2{
+   font-style: normal;
+font-weight: 400px;
+font-size: 13px;
+line-height: 160%;
+color: #828385;
+}
+.foot-finishline
+{
+   font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.004em;
+color: #828385;
+}
+.foot-copyRight{
+   font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #3F2355;
+}
+.footer-table thead td{
+   font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 31px;
+color: #3F2355;
+}
+.footer-table td{
+   font-style: normal;
+font-weight: 400;
+font-size: 13px;
+padding-left: 20px;
+line-height: 53px;
+color: #131313;
+opacity: 0.6;
+}
