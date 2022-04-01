@@ -789,6 +789,22 @@ top: 600px;
 .plans{
    top: 5000px;
 }
+.footer{
+   top:6000px;
+}
+.getFinancing,.summary
+{
+   max-width: 70% !important;
+   left: 19%;
+}
+.summary
+{
+   top: 600px;
+   left: 14%;
+}
+.foot-intro2,.foot-finishline{
+   max-width: 80%;
+}
 }
 @media (max-width:768px)
 {
