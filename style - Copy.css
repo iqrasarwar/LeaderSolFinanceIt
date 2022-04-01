@@ -745,10 +745,11 @@ top: 24%;
    height: 272px;
 }
 .useSectionHeading{
-   left: 29vw !important;
+   left: 20vw !important;
+   max-width: fit-content;
 }
 .uses{
-   padding-left: 26vw !important;
+   padding-left: 16vw !important;
 }
 .phoneSection
 {
@@ -861,9 +862,6 @@ top: 24%;
       top: 840px;
       width: 287px;
    }
-   .uses{
-      padding-left: 23vw;
-   }
    .phoneHeadText{
       font-size: 28px;
       width: 270px;
@@ -879,7 +877,23 @@ top: 24%;
    {
       top: 550px;
    }
-
+   .useSection
+   {
+      height: 257px;
+      min-width: 310px;
+      margin-left: 45%;
+   }
+   .useSectionHeading{
+      max-width: 400px;
+      left: 44% !important;
+   }
+   .useHeading,.useText
+   {
+      max-width: 200px;
+   }
+.useSectionRow{
+   flex-direction: column;
+}
 }
 @media (max-width:700px)
 {
@@ -1004,4 +1018,23 @@ top: 24%;
       .loan-desc{
          width: 190px;
       }
+      .useSection
+   {
+      height: 280px;
+      min-width: 190px;
+      margin-left: 2%;
+   }
+   .useSectionHeading{
+      max-width: 250px;
+      left: 5% !important;
+      line-height: 25px;
+      font-size: 20px;
+   }
+   .useHeading,.useText
+   {
+      max-width: 120px;
+   }
+   .uses{
+      padding-left: 5vw !important;
+   }
 }
