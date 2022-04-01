@@ -978,6 +978,22 @@ top: 600px;
    .plans th{
       padding: 5px 10px;
    }
+   .footer{
+      top:7650px;
+   }
+   .getFinancing,.summary
+   {
+      min-width: 100% !important;
+      left: 0%;
+   }
+   .summary
+   {
+      top: 600px;
+      left: 0%;
+   }
+   .foot-intro2,.foot-finishline{
+      max-width: 80%;
+   }
 }
 @media (max-width:700px)
 {
@@ -1145,5 +1161,44 @@ top: 600px;
    .table-start-btn {
       top: 840px;
       left: 10px;
+   }
+   .footer{
+      top: 7500px;
+   }
+   .getFinancing,.summary
+   {
+      box-sizing: border-box;
+   }
+   .connect-icons{
+      margin-top: 0%;
+      margin-bottom: -6%;
+      max-width: 135px;
+      min-height: 120px;
+   }
+   .footerHead{
+      max-width: 230px;
+   }
+   .summary
+   {
+      top: 850px;
+      left: 0%;
+      padding:5%;
+   }
+
+   .footer-table td
+   {
+      padding: 3% 0%;
+      line-height: 15px;
+      font-size: 11px;
+      opacity: 1 !important;
+   }
+   .footer-table thead td
+   {
+      padding-right: 3%;
+      font-size: 12px;
+   }
+   .contact
+   {
+      flex-direction: column;
    }
 }
