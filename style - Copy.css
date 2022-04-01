@@ -1,6 +1,6 @@
 body{
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    font-family: Calibri;
 }
 /* NavBar Styling */
@@ -178,7 +178,7 @@ top: 435px;
    position: absolute;
 top: 720px;
 height: 840px;
-width: 100%;
+width: 93%;
 background: #FDFDFD;
 }
 .landing-phone
@@ -773,6 +773,19 @@ top: 24%;
 .uses{
    padding-left: 20vw;
 }
+.descSection{
+   top:3600px;
+   width: 100%;
+}
+.descSectionPic{
+   height: 60vw;
+   width: 60vw;
+   left:20vw;
+   top:720px;
+}
+.desc-btn{
+top: 550px;
+}
 }
 @media (max-width:768px)
 {
@@ -892,9 +905,33 @@ top: 24%;
    {
       max-width: 200px;
    }
-.useSectionRow{
-   flex-direction: column;
-}
+   .useSectionRow
+   {
+      flex-direction: column;
+   }
+   .descSection{
+      top: 4750px;
+      width: 100%;
+   }
+   .descSectionPic{
+      height: 90vw;
+      width: 100vw;
+      left:0vw;
+      top:1319px;
+   }
+   .methodStep{
+      min-height: 130px;
+   }
+   .desc-btn{
+   top: 557px;
+   left: 116px;
+   }
+   .descSectionText{
+      flex-direction: column;
+   }
+   .reasonHead{
+      margin-top: 80px;
+   }
 }
 @media (max-width:700px)
 {
@@ -1035,7 +1072,25 @@ top: 24%;
    {
       max-width: 120px;
    }
+   .descSection{
+      top: 4250px ;
+   }
    .uses{
-      padding-left: 5vw !important;
+      padding-left: 18vw !important;
+   }
+   .descSectionPic{
+      width: 100vw;
+      height: 100vw;
+      top: 1836px;
+   }
+   .descSectionText{
+      flex-direction: column;
+   }
+   .desc-btn{
+      top: 830px;
+   }
+   .descDetailHeading{
+      font-size: 23px;
+      line-height: 30px;
    }
 }
