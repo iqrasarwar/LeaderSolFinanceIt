@@ -1159,7 +1159,7 @@ top: 600px;
       top: 6500px;
    }
    .table-start-btn {
-      top: 840px;
+      top: 850px;
       left: 10px;
    }
    .footer{
@@ -1172,8 +1172,8 @@ top: 600px;
    .connect-icons{
       margin-top: 0%;
       margin-bottom: -6%;
-      max-width: 135px;
-      min-height: 120px;
+      max-width: 100px;
+      min-height: 100px;
    }
    .footerHead{
       max-width: 230px;
